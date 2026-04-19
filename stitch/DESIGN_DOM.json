@@ -1,0 +1,2514 @@
+{
+  "generatedAt": "2026-04-19T00:47:57.494Z",
+  "screenCount": 7,
+  "screens": {
+    "1b650b4718844183ba37ef7f46fff1d1": {
+      "screenId": "1b650b4718844183ba37ef7f46fff1d1",
+      "materialSymbolsRequired": true,
+      "sections": [
+        {
+          "tag": "main",
+          "layout": "flex-row",
+          "classes": [
+            "fixed",
+            "inset-0",
+            "z-50",
+            "flex",
+            "items-center",
+            "justify-center",
+            "p-4",
+            "sm:p-6",
+            "lg:p-8"
+          ],
+          "childCount": 6
+        }
+      ],
+      "buttons": [
+        {
+          "label": "Vazgec",
+          "classes": [
+            "w-full",
+            "sm:w-auto",
+            "px-8",
+            "py-4",
+            "font-label",
+            "font-semibold",
+            "text-sm",
+            "tracking-wide",
+            "text-on-surface",
+            "bg-surface-container-lowest",
+            "hover:bg-surface-variant",
+            "transition-colors",
+            "duration-200",
+            "rounded-xl",
+            "flex",
+            "items-center",
+            "justify-center"
+          ],
+          "icon": null,
+          "action": "click-action"
+        },
+        {
+          "label": "restart_alt\n                    Evet, Sifirla",
+          "classes": [
+            "w-full",
+            "sm:w-auto",
+            "px-8",
+            "py-4",
+            "font-label",
+            "font-bold",
+            "text-sm",
+            "tracking-wide",
+            "text-on-error",
+            "bg-error",
+            "hover:bg-error/90",
+            "transition-colors",
+            "duration-200",
+            "rounded-xl",
+            "flex",
+            "items-center",
+            "justify-center",
+            "gap-2",
+            "group"
+          ],
+          "icon": "restart_alt",
+          "action": "click-action"
+        }
+      ],
+      "inputs": [],
+      "navLinks": [],
+      "cards": [],
+      "icons": [
+        "error",
+        "restart_alt"
+      ],
+      "images": [],
+      "cssVars": {},
+      "colorPalette": {
+        "surface-container": "#1e1e32",
+        "primary-container": "#fc536d",
+        "tertiary-container": "#25a46d",
+        "error-container": "#93000a",
+        "secondary-fixed": "#84f8c4",
+        "on-error": "#690005",
+        "on-primary-fixed": "#40000e",
+        "on-primary": "#67001c",
+        "inverse-primary": "#b71d3f",
+        "surface-bright": "#37374d",
+        "surface-container-lowest": "#0c0c1f",
+        "primary-fixed-dim": "#ffb2b7",
+        "background": "#111125",
+        "on-error-container": "#ffdad6",
+        "on-tertiary": "#003921",
+        "on-secondary-container": "#003120",
+        "inverse-on-surface": "#2f2e43",
+        "surface-container-high": "#28283d",
+        "error": "#ffb4ab",
+        "tertiary": "#67dc9f",
+        "on-primary-fixed-variant": "#91002b",
+        "on-tertiary-fixed-variant": "#005232",
+        "on-surface": "#e2e0fc",
+        "surface-tint": "#ffb2b7",
+        "outline-variant": "#5a4042",
+        "on-secondary-fixed-variant": "#005138",
+        "tertiary-fixed": "#84f9ba",
+        "on-background": "#e2e0fc",
+        "outline": "#a9898a",
+        "secondary-container": "#22a476",
+        "on-secondary": "#003825",
+        "surface-container-highest": "#333348",
+        "primary-fixed": "#ffdadb",
+        "on-secondary-fixed": "#002114",
+        "secondary": "#66dca9",
+        "secondary-fixed-dim": "#66dca9",
+        "surface": "#111125",
+        "on-surface-variant": "#e2bebf",
+        "inverse-surface": "#e2e0fc",
+        "on-tertiary-container": "#00311c",
+        "on-tertiary-fixed": "#002111",
+        "primary": "#ffb2b7",
+        "surface-variant": "#333348",
+        "surface-dim": "#111125",
+        "on-primary-container": "#5b0017",
+        "surface-container-low": "#1a1a2e",
+        "tertiary-fixed-dim": "#67dc9f"
+      },
+      "fonts": [
+        "Space Grotesk",
+        "Inter",
+        "Material Symbols Outlined"
+      ],
+      "layoutHints": {
+        "flexDirection": "col",
+        "gap": "6"
+      },
+      "tabBar": [],
+      "title": "Sıfırlama Modalı"
+    },
+    "286b94ba8900443a80a25e34f2812a71": {
+      "screenId": "286b94ba8900443a80a25e34f2812a71",
+      "materialSymbolsRequired": false,
+      "sections": [],
+      "buttons": [],
+      "inputs": [],
+      "navLinks": [],
+      "cards": [],
+      "icons": [],
+      "images": [],
+      "cssVars": {},
+      "colorPalette": {
+        "surface-container": "#1e1e32",
+        "primary-container": "#fc536d",
+        "tertiary-container": "#25a46d",
+        "error-container": "#93000a",
+        "secondary-fixed": "#84f8c4",
+        "on-error": "#690005",
+        "on-primary-fixed": "#40000e",
+        "on-primary": "#67001c",
+        "inverse-primary": "#b71d3f",
+        "surface-bright": "#37374d",
+        "surface-container-lowest": "#0c0c1f",
+        "primary-fixed-dim": "#ffb2b7",
+        "background": "#111125",
+        "on-error-container": "#ffdad6",
+        "on-tertiary": "#003921",
+        "on-secondary-container": "#003120",
+        "inverse-on-surface": "#2f2e43",
+        "surface-container-high": "#28283d",
+        "error": "#ffb4ab",
+        "tertiary": "#67dc9f",
+        "on-primary-fixed-variant": "#91002b",
+        "on-tertiary-fixed-variant": "#005232",
+        "on-surface": "#e2e0fc",
+        "surface-tint": "#ffb2b7",
+        "outline-variant": "#5a4042",
+        "on-secondary-fixed-variant": "#005138",
+        "tertiary-fixed": "#84f9ba",
+        "on-background": "#e2e0fc",
+        "outline": "#a9898a",
+        "secondary-container": "#22a476",
+        "on-secondary": "#003825",
+        "surface-container-highest": "#333348",
+        "primary-fixed": "#ffdadb",
+        "on-secondary-fixed": "#002114",
+        "secondary": "#66dca9",
+        "secondary-fixed-dim": "#66dca9",
+        "surface": "#111125",
+        "on-surface-variant": "#e2bebf",
+        "inverse-surface": "#e2e0fc",
+        "on-tertiary-container": "#00311c",
+        "on-tertiary-fixed": "#002111",
+        "primary": "#ffb2b7",
+        "surface-variant": "#333348",
+        "surface-dim": "#111125",
+        "on-primary-container": "#5b0017",
+        "surface-container-low": "#1a1a2e",
+        "tertiary-fixed-dim": "#67dc9f"
+      },
+      "fonts": [],
+      "layoutHints": {},
+      "tabBar": [],
+      "title": "Sayac-38192 PRD"
+    },
+    "4fae475158fd4d799302581bc2701dba": {
+      "screenId": "4fae475158fd4d799302581bc2701dba",
+      "materialSymbolsRequired": true,
+      "sections": [
+        {
+          "tag": "header",
+          "layout": "block",
+          "classes": [
+            "md:hidden",
+            "bg-white/80",
+            "dark:bg-slate-950/80",
+            "backdrop-blur-xl",
+            "docked",
+            "full-width",
+            "top-0",
+            "sticky",
+            "no-border",
+            "shadow-sm"
+          ],
+          "childCount": 2
+        },
+        {
+          "tag": "nav",
+          "layout": "block",
+          "classes": [
+            "hidden",
+            "md:flex",
+            "bg-slate-50",
+            "dark:bg-slate-900",
+            "h-full",
+            "w-72",
+            "border-r-0",
+            "tonal-layering",
+            "bg-slate-100",
+            "dark:bg-slate-800"
+          ],
+          "childCount": 5
+        },
+        {
+          "tag": "main",
+          "layout": "flex-col",
+          "classes": [
+            "flex-grow",
+            "md:ml-72",
+            "flex",
+            "flex-col",
+            "items-center",
+            "justify-center",
+            "p-6",
+            "pb-32",
+            "md:pb-6",
+            "min-h-screen"
+          ],
+          "childCount": 7
+        },
+        {
+          "tag": "nav",
+          "layout": "absolute",
+          "classes": [
+            "md:hidden",
+            "bg-white/90",
+            "dark:bg-slate-950/90",
+            "backdrop-blur-2xl",
+            "fixed",
+            "bottom-0",
+            "w-full",
+            "rounded-t-[2rem]",
+            "no-border",
+            "shadow-[0_-10px_40px_rgba(0,0,0,0.1)]"
+          ],
+          "childCount": 0
+        }
+      ],
+      "buttons": [
+        {
+          "label": "light_mode",
+          "classes": [
+            "text-rose-600",
+            "dark:text-rose-400",
+            "hover:bg-slate-100",
+            "dark:hover:bg-slate-800",
+            "transition-colors",
+            "duration-200",
+            "active:scale-95",
+            "transition-transform",
+            "p-2",
+            "rounded-full"
+          ],
+          "icon": "light_mode",
+          "action": "click-action"
+        },
+        {
+          "label": "history",
+          "classes": [
+            "text-rose-600",
+            "dark:text-rose-400",
+            "hover:bg-slate-100",
+            "dark:hover:bg-slate-800",
+            "transition-colors",
+            "duration-200",
+            "active:scale-95",
+            "transition-transform",
+            "p-2",
+            "rounded-full"
+          ],
+          "icon": "history",
+          "action": "click-action",
+          "expectedRoute": "#"
+        },
+        {
+          "label": "Sıfırla",
+          "classes": [
+            "w-full",
+            "bg-surface-container-high",
+            "hover:bg-surface-container-highest",
+            "text-on-surface",
+            "font-body",
+            "font-semibold",
+            "py-3",
+            "px-4",
+            "rounded-xl",
+            "transition-colors",
+            "shadow-sm",
+            "shadow-black/5"
+          ],
+          "icon": null,
+          "action": "click-action"
+        },
+        {
+          "label": "remove",
+          "classes": [
+            "w-16",
+            "h-16",
+            "rounded-full",
+            "bg-surface-container-high",
+            "flex",
+            "items-center",
+            "justify-center",
+            "text-on-surface",
+            "hover:bg-surface-container-highest",
+            "active:scale-95",
+            "transition-all",
+            "shadow-lg",
+            "shadow-black/20",
+            "group"
+          ],
+          "icon": "remove",
+          "action": "click-action"
+        },
+        {
+          "label": "add",
+          "classes": [
+            "w-20",
+            "h-20",
+            "rounded-full",
+            "bg-gradient-to-br",
+            "from-primary",
+            "to-primary-container",
+            "flex",
+            "items-center",
+            "justify-center",
+            "text-on-primary",
+            "hover:opacity-90",
+            "active:scale-95",
+            "transition-all",
+            "shadow-[0_8px_32px_rgba(255,178,183,0.3)]",
+            "group",
+            "-translate-y-2"
+          ],
+          "icon": "add",
+          "action": "create"
+        },
+        {
+          "label": "light_mode",
+          "classes": [],
+          "icon": "light_mode",
+          "action": "click-action"
+        },
+        {
+          "label": "settings",
+          "classes": [],
+          "icon": "settings",
+          "action": "click-action",
+          "expectedRoute": "#"
+        },
+        {
+          "label": "remove",
+          "classes": [],
+          "icon": "remove",
+          "action": "click-action"
+        },
+        {
+          "label": "add",
+          "classes": [],
+          "icon": "add",
+          "action": "click-action"
+        },
+        {
+          "label": "palette",
+          "classes": [],
+          "icon": "palette",
+          "action": "click-action",
+          "expectedRoute": "#"
+        }
+      ],
+      "inputs": [],
+      "navLinks": [
+        {
+          "label": "add_circle\n                    Sayaç",
+          "href": "#",
+          "classes": [
+            "flex",
+            "items-center",
+            "gap-3",
+            "bg-rose-500/10",
+            "text-rose-600",
+            "dark:text-rose-400",
+            "font-bold",
+            "rounded-xl",
+            "px-4",
+            "py-3",
+            "hover:bg-slate-200/50",
+            "dark:hover:bg-slate-800/50",
+            "transition-all",
+            "duration-300",
+            "ease-out"
+          ],
+          "icon": "add_circle"
+        },
+        {
+          "label": "history\n                    Geçmiş",
+          "href": "#",
+          "classes": [
+            "flex",
+            "items-center",
+            "gap-3",
+            "text-slate-600",
+            "dark:text-slate-400",
+            "px-4",
+            "py-3",
+            "hover:bg-slate-200/50",
+            "dark:hover:bg-slate-800/50",
+            "transition-all",
+            "duration-300",
+            "ease-out"
+          ],
+          "icon": "history"
+        },
+        {
+          "label": "settings\n                    Ayarlar",
+          "href": "#",
+          "classes": [
+            "flex",
+            "items-center",
+            "gap-3",
+            "text-slate-600",
+            "dark:text-slate-400",
+            "px-4",
+            "py-3",
+            "hover:bg-slate-200/50",
+            "dark:hover:bg-slate-800/50",
+            "transition-all",
+            "duration-300",
+            "ease-out"
+          ],
+          "icon": "settings"
+        },
+        {
+          "label": "timer\nSayaç",
+          "href": "#",
+          "classes": [
+            "flex",
+            "flex-col",
+            "items-center",
+            "justify-center",
+            "bg-rose-600",
+            "text-white",
+            "rounded-full",
+            "p-3",
+            "mb-4",
+            "shadow-lg",
+            "shadow-rose-500/40",
+            "font-['Inter']",
+            "text-[10px]",
+            "font-semibold",
+            "uppercase",
+            "tracking-widest",
+            "active:scale-90",
+            "transition-all",
+            "duration-200",
+            "group"
+          ],
+          "icon": "timer"
+        },
+        {
+          "label": "history\nGeçmiş",
+          "href": "#",
+          "classes": [
+            "flex",
+            "flex-col",
+            "items-center",
+            "justify-center",
+            "text-slate-400",
+            "dark:text-slate-500",
+            "p-2",
+            "hover:text-rose-500",
+            "transition-colors",
+            "font-['Inter']",
+            "text-[10px]",
+            "font-semibold",
+            "uppercase",
+            "tracking-widest",
+            "active:scale-90",
+            "transition-all",
+            "duration-200"
+          ],
+          "icon": "history"
+        },
+        {
+          "label": "palette\nTema",
+          "href": "#",
+          "classes": [
+            "flex",
+            "flex-col",
+            "items-center",
+            "justify-center",
+            "text-slate-400",
+            "dark:text-slate-500",
+            "p-2",
+            "hover:text-rose-500",
+            "transition-colors",
+            "font-['Inter']",
+            "text-[10px]",
+            "font-semibold",
+            "uppercase",
+            "tracking-widest",
+            "active:scale-90",
+            "transition-all",
+            "duration-200"
+          ],
+          "icon": "palette"
+        }
+      ],
+      "cards": [],
+      "icons": [
+        "light_mode",
+        "history",
+        "add_circle",
+        "settings",
+        "remove",
+        "add",
+        "flag",
+        "timer",
+        "palette"
+      ],
+      "images": [],
+      "cssVars": {},
+      "colorPalette": {
+        "surface-container": "#1e1e32",
+        "primary-container": "#fc536d",
+        "tertiary-container": "#25a46d",
+        "error-container": "#93000a",
+        "secondary-fixed": "#84f8c4",
+        "on-error": "#690005",
+        "on-primary-fixed": "#40000e",
+        "on-primary": "#67001c",
+        "inverse-primary": "#b71d3f",
+        "surface-bright": "#37374d",
+        "surface-container-lowest": "#0c0c1f",
+        "primary-fixed-dim": "#ffb2b7",
+        "background": "#111125",
+        "on-error-container": "#ffdad6",
+        "on-tertiary": "#003921",
+        "on-secondary-container": "#003120",
+        "inverse-on-surface": "#2f2e43",
+        "surface-container-high": "#28283d",
+        "error": "#ffb4ab",
+        "tertiary": "#67dc9f",
+        "on-primary-fixed-variant": "#91002b",
+        "on-tertiary-fixed-variant": "#005232",
+        "on-surface": "#e2e0fc",
+        "surface-tint": "#ffb2b7",
+        "outline-variant": "#5a4042",
+        "on-secondary-fixed-variant": "#005138",
+        "tertiary-fixed": "#84f9ba",
+        "on-background": "#e2e0fc",
+        "outline": "#a9898a",
+        "secondary-container": "#22a476",
+        "on-secondary": "#003825",
+        "surface-container-highest": "#333348",
+        "primary-fixed": "#ffdadb",
+        "on-secondary-fixed": "#002114",
+        "secondary": "#66dca9",
+        "secondary-fixed-dim": "#66dca9",
+        "surface": "#111125",
+        "on-surface-variant": "#e2bebf",
+        "inverse-surface": "#e2e0fc",
+        "on-tertiary-container": "#00311c",
+        "on-tertiary-fixed": "#002111",
+        "primary": "#ffb2b7",
+        "surface-variant": "#333348",
+        "surface-dim": "#111125",
+        "on-primary-container": "#5b0017",
+        "surface-container-low": "#1a1a2e",
+        "tertiary-fixed-dim": "#67dc9f"
+      },
+      "fonts": [
+        "Material Symbols Outlined",
+        "Space Grotesk",
+        "Inter"
+      ],
+      "layoutHints": {
+        "flexDirection": "col",
+        "gap": "4"
+      },
+      "tabBar": [
+        {
+          "label": "Geçmiş Paneli",
+          "icon": null,
+          "active": false
+        },
+        {
+          "label": "Sayaç",
+          "icon": "add_circle",
+          "active": false
+        },
+        {
+          "label": "Geçmiş",
+          "icon": "history",
+          "active": false
+        },
+        {
+          "label": "Ayarlar",
+          "icon": "settings",
+          "active": false
+        },
+        {
+          "label": "Sıfırla",
+          "icon": null,
+          "active": false
+        },
+        {
+          "label": "Sayaç",
+          "icon": "timer",
+          "active": true
+        },
+        {
+          "label": "Geçmiş",
+          "icon": "history",
+          "active": true
+        },
+        {
+          "label": "Tema",
+          "icon": "palette",
+          "active": true
+        }
+      ],
+      "title": "Ana Sayaç (Açık)"
+    },
+    "74cc2989584e4944b68a89fe7095721f": {
+      "screenId": "74cc2989584e4944b68a89fe7095721f",
+      "materialSymbolsRequired": true,
+      "sections": [
+        {
+          "tag": "nav",
+          "layout": "flex-col",
+          "classes": [
+            "hidden",
+            "md:flex",
+            "flex-col",
+            "h-full",
+            "w-72",
+            "border-r-0",
+            "bg-slate-50",
+            "dark:bg-slate-900",
+            "tonal-layering",
+            "bg-slate-100"
+          ],
+          "childCount": 5
+        },
+        {
+          "tag": "main",
+          "layout": "flex-col",
+          "classes": [
+            "flex-grow",
+            "flex",
+            "flex-col",
+            "md:ml-72",
+            "min-h-screen",
+            "relative",
+            "overflow-x-hidden"
+          ],
+          "childCount": 8
+        },
+        {
+          "tag": "nav",
+          "layout": "flex-row",
+          "classes": [
+            "md:hidden",
+            "fixed",
+            "bottom-0",
+            "left-0",
+            "w-full",
+            "z-50",
+            "flex",
+            "justify-around",
+            "items-center",
+            "px-8"
+          ],
+          "childCount": 0
+        }
+      ],
+      "buttons": [
+        {
+          "label": "Sıfırla",
+          "classes": [
+            "w-full",
+            "flex",
+            "items-center",
+            "justify-center",
+            "gap-2",
+            "bg-surface-container-highest",
+            "text-on-surface",
+            "hover:bg-surface-container-high",
+            "transition-colors",
+            "py-3",
+            "rounded-xl",
+            "font-['Inter']",
+            "text-sm",
+            "font-medium"
+          ],
+          "icon": null,
+          "action": "click-action"
+        },
+        {
+          "label": "light_mode",
+          "classes": [
+            "hover:bg-slate-100",
+            "dark:hover:bg-slate-800",
+            "transition-colors",
+            "duration-200",
+            "p-2",
+            "rounded-full",
+            "active:scale-95",
+            "transition-transform"
+          ],
+          "icon": "light_mode",
+          "action": "click-action"
+        },
+        {
+          "label": "history",
+          "classes": [
+            "hover:bg-slate-100",
+            "dark:hover:bg-slate-800",
+            "transition-colors",
+            "duration-200",
+            "p-2",
+            "rounded-full",
+            "active:scale-95",
+            "transition-transform"
+          ],
+          "icon": "history",
+          "action": "click-action",
+          "expectedRoute": "#"
+        },
+        {
+          "label": "add\n                    Sayaca Dön",
+          "classes": [
+            "bg-gradient-to-br",
+            "from-primary",
+            "to-primary-container",
+            "text-on-primary",
+            "font-body",
+            "font-medium",
+            "px-8",
+            "py-4",
+            "rounded-xl",
+            "shadow-[0_8px_24px_rgba(255,178,183,0.15)]",
+            "hover:brightness-110",
+            "active:scale-[0.98]",
+            "transition-all",
+            "duration-200",
+            "flex",
+            "items-center",
+            "gap-2"
+          ],
+          "icon": "add",
+          "action": "create"
+        },
+        {
+          "label": "settings",
+          "classes": [],
+          "icon": "settings",
+          "action": "click-action",
+          "expectedRoute": "#"
+        },
+        {
+          "label": "light_mode",
+          "classes": [],
+          "icon": "light_mode",
+          "action": "click-action"
+        },
+        {
+          "label": "add",
+          "classes": [],
+          "icon": "add",
+          "action": "click-action"
+        },
+        {
+          "label": "palette",
+          "classes": [],
+          "icon": "palette",
+          "action": "click-action",
+          "expectedRoute": "#"
+        }
+      ],
+      "inputs": [],
+      "navLinks": [
+        {
+          "label": "add_circle\n                    Sayaç",
+          "href": "#",
+          "classes": [
+            "flex",
+            "items-center",
+            "gap-3",
+            "text-slate-600",
+            "dark:text-slate-400",
+            "px-4",
+            "py-3",
+            "hover:bg-slate-200/50",
+            "dark:hover:bg-slate-800/50",
+            "transition-all",
+            "duration-300",
+            "ease-out",
+            "rounded-xl",
+            "font-['Inter']",
+            "text-sm",
+            "font-medium"
+          ],
+          "icon": "add_circle"
+        },
+        {
+          "label": "history\n                    Geçmiş",
+          "href": "#",
+          "classes": [
+            "flex",
+            "items-center",
+            "gap-3",
+            "bg-rose-500/10",
+            "text-rose-600",
+            "dark:text-rose-400",
+            "font-bold",
+            "rounded-xl",
+            "px-4",
+            "py-3",
+            "hover:bg-slate-200/50",
+            "dark:hover:bg-slate-800/50",
+            "transition-all",
+            "duration-300",
+            "ease-out",
+            "font-['Inter']",
+            "text-sm"
+          ],
+          "icon": "history"
+        },
+        {
+          "label": "settings\n                    Ayarlar",
+          "href": "#",
+          "classes": [
+            "flex",
+            "items-center",
+            "gap-3",
+            "text-slate-600",
+            "dark:text-slate-400",
+            "px-4",
+            "py-3",
+            "hover:bg-slate-200/50",
+            "dark:hover:bg-slate-800/50",
+            "transition-all",
+            "duration-300",
+            "ease-out",
+            "rounded-xl",
+            "font-['Inter']",
+            "text-sm",
+            "font-medium"
+          ],
+          "icon": "settings"
+        },
+        {
+          "label": "timer\nSayaç",
+          "href": "#",
+          "classes": [
+            "flex",
+            "flex-col",
+            "items-center",
+            "justify-center",
+            "text-slate-400",
+            "dark:text-slate-500",
+            "p-2",
+            "hover:text-rose-500",
+            "transition-colors",
+            "active:scale-90",
+            "transition-all",
+            "duration-200"
+          ],
+          "icon": "timer"
+        },
+        {
+          "label": "history\nGeçmiş",
+          "href": "#",
+          "classes": [
+            "flex",
+            "flex-col",
+            "items-center",
+            "justify-center",
+            "bg-rose-600",
+            "text-white",
+            "rounded-full",
+            "p-3",
+            "mb-4",
+            "shadow-lg",
+            "shadow-rose-500/40",
+            "active:scale-90",
+            "transition-all",
+            "duration-200",
+            "-mt-8",
+            "border-4",
+            "border-background"
+          ],
+          "icon": "history"
+        },
+        {
+          "label": "palette\nTema",
+          "href": "#",
+          "classes": [
+            "flex",
+            "flex-col",
+            "items-center",
+            "justify-center",
+            "text-slate-400",
+            "dark:text-slate-500",
+            "p-2",
+            "hover:text-rose-500",
+            "transition-colors",
+            "active:scale-90",
+            "transition-all",
+            "duration-200"
+          ],
+          "icon": "palette"
+        }
+      ],
+      "cards": [],
+      "icons": [
+        "add_circle",
+        "history",
+        "settings",
+        "light_mode",
+        "history_toggle_off",
+        "add",
+        "timer",
+        "palette"
+      ],
+      "images": [],
+      "cssVars": {},
+      "colorPalette": {
+        "surface-container": "#1e1e32",
+        "primary-container": "#fc536d",
+        "tertiary-container": "#25a46d",
+        "error-container": "#93000a",
+        "secondary-fixed": "#84f8c4",
+        "on-error": "#690005",
+        "on-primary-fixed": "#40000e",
+        "on-primary": "#67001c",
+        "inverse-primary": "#b71d3f",
+        "surface-bright": "#37374d",
+        "surface-container-lowest": "#0c0c1f",
+        "primary-fixed-dim": "#ffb2b7",
+        "background": "#111125",
+        "on-error-container": "#ffdad6",
+        "on-tertiary": "#003921",
+        "on-secondary-container": "#003120",
+        "inverse-on-surface": "#2f2e43",
+        "surface-container-high": "#28283d",
+        "error": "#ffb4ab",
+        "tertiary": "#67dc9f",
+        "on-primary-fixed-variant": "#91002b",
+        "on-tertiary-fixed-variant": "#005232",
+        "on-surface": "#e2e0fc",
+        "surface-tint": "#ffb2b7",
+        "outline-variant": "#5a4042",
+        "on-secondary-fixed-variant": "#005138",
+        "tertiary-fixed": "#84f9ba",
+        "on-background": "#e2e0fc",
+        "outline": "#a9898a",
+        "secondary-container": "#22a476",
+        "on-secondary": "#003825",
+        "surface-container-highest": "#333348",
+        "primary-fixed": "#ffdadb",
+        "on-secondary-fixed": "#002114",
+        "secondary": "#66dca9",
+        "secondary-fixed-dim": "#66dca9",
+        "surface": "#111125",
+        "on-surface-variant": "#e2bebf",
+        "inverse-surface": "#e2e0fc",
+        "on-tertiary-container": "#00311c",
+        "on-tertiary-fixed": "#002111",
+        "primary": "#ffb2b7",
+        "surface-variant": "#333348",
+        "surface-dim": "#111125",
+        "on-primary-container": "#5b0017",
+        "surface-container-low": "#1a1a2e",
+        "tertiary-fixed-dim": "#67dc9f"
+      },
+      "fonts": [
+        "Space Grotesk",
+        "Inter",
+        "Material Symbols Outlined"
+      ],
+      "layoutHints": {
+        "flexDirection": "col",
+        "gap": "2"
+      },
+      "tabBar": [
+        {
+          "label": "Geçmiş Paneli",
+          "icon": null,
+          "active": false
+        },
+        {
+          "label": "Sayaç",
+          "icon": "add_circle",
+          "active": false
+        },
+        {
+          "label": "Geçmiş",
+          "icon": "history",
+          "active": false
+        },
+        {
+          "label": "Ayarlar",
+          "icon": "settings",
+          "active": false
+        },
+        {
+          "label": "Sıfırla",
+          "icon": null,
+          "active": false
+        },
+        {
+          "label": "Sayaç",
+          "icon": "timer",
+          "active": true
+        },
+        {
+          "label": "Geçmiş",
+          "icon": "history",
+          "active": true
+        },
+        {
+          "label": "Tema",
+          "icon": "palette",
+          "active": true
+        }
+      ],
+      "title": "Boş Geçmiş"
+    },
+    "b867614ba05b4df2999a5733ab7ced5c": {
+      "screenId": "b867614ba05b4df2999a5733ab7ced5c",
+      "materialSymbolsRequired": true,
+      "sections": [
+        {
+          "tag": "header",
+          "layout": "block",
+          "classes": [
+            "bg-white/80",
+            "dark:bg-slate-950/80",
+            "backdrop-blur-xl",
+            "docked",
+            "full-width",
+            "top-0",
+            "sticky",
+            "no-border",
+            "shadow-sm",
+            "dark:shadow-none"
+          ],
+          "childCount": 2
+        },
+        {
+          "tag": "nav",
+          "layout": "block",
+          "classes": [
+            "hidden",
+            "md:flex",
+            "bg-slate-50",
+            "dark:bg-slate-900",
+            "h-full",
+            "w-72",
+            "border-r-0",
+            "tonal-layering",
+            "bg-slate-100",
+            "dark:bg-slate-800"
+          ],
+          "childCount": 5
+        },
+        {
+          "tag": "main",
+          "layout": "flex-col",
+          "classes": [
+            "flex-1",
+            "w-full",
+            "h-full",
+            "md:ml-72",
+            "flex",
+            "flex-col",
+            "items-center",
+            "justify-center",
+            "p-6",
+            "relative"
+          ],
+          "childCount": 7
+        },
+        {
+          "tag": "nav",
+          "layout": "absolute",
+          "classes": [
+            "md:hidden",
+            "bg-white/90",
+            "dark:bg-slate-950/90",
+            "backdrop-blur-2xl",
+            "fixed",
+            "bottom-0",
+            "w-full",
+            "rounded-t-[2rem]",
+            "no-border",
+            "shadow-[0_-10px_40px_rgba(0,0,0,0.1)]"
+          ],
+          "childCount": 0
+        }
+      ],
+      "buttons": [
+        {
+          "label": "menu",
+          "classes": [
+            "md:hidden",
+            "text-slate-500",
+            "dark:text-slate-400",
+            "hover:bg-slate-100",
+            "dark:hover:bg-slate-800",
+            "transition-colors",
+            "duration-200",
+            "active:scale-95",
+            "transition-transform",
+            "p-2",
+            "rounded-full"
+          ],
+          "icon": "menu",
+          "action": "click-action"
+        },
+        {
+          "label": "light_mode",
+          "classes": [
+            "text-slate-500",
+            "dark:text-slate-400",
+            "hover:bg-slate-100",
+            "dark:hover:bg-slate-800",
+            "transition-colors",
+            "duration-200",
+            "active:scale-95",
+            "transition-transform",
+            "p-2",
+            "rounded-full"
+          ],
+          "icon": "light_mode",
+          "action": "click-action"
+        },
+        {
+          "label": "history",
+          "classes": [
+            "text-slate-500",
+            "dark:text-slate-400",
+            "hover:bg-slate-100",
+            "dark:hover:bg-slate-800",
+            "transition-colors",
+            "duration-200",
+            "active:scale-95",
+            "transition-transform",
+            "p-2",
+            "rounded-full",
+            "hidden",
+            "md:block"
+          ],
+          "icon": "history",
+          "action": "click-action",
+          "expectedRoute": "#"
+        },
+        {
+          "label": "refresh\n                    Sıfırla",
+          "classes": [
+            "w-full",
+            "bg-surface-container-highest",
+            "text-on-surface",
+            "hover:bg-white/10",
+            "transition-colors",
+            "py-3",
+            "rounded-xl",
+            "font-label",
+            "text-sm",
+            "font-semibold",
+            "flex",
+            "justify-center",
+            "items-center",
+            "gap-2"
+          ],
+          "icon": "refresh",
+          "action": "click-action"
+        },
+        {
+          "label": "remove",
+          "classes": [
+            "w-16",
+            "h-16",
+            "md:w-20",
+            "md:h-20",
+            "rounded-full",
+            "bg-surface-container-highest",
+            "text-on-surface",
+            "flex",
+            "items-center",
+            "justify-center",
+            "hover:bg-white/10",
+            "active:scale-95",
+            "transition-all",
+            "duration-200",
+            "shadow-[0_8px_32px_rgba(0,0,0,0.1)]",
+            "group"
+          ],
+          "icon": "remove",
+          "action": "click-action"
+        },
+        {
+          "label": "restart_alt\nSıfırla",
+          "classes": [
+            "flex",
+            "flex-col",
+            "items-center",
+            "justify-center",
+            "gap-1",
+            "text-on-surface-variant",
+            "hover:text-primary",
+            "transition-colors",
+            "active:scale-95",
+            "px-4",
+            "py-2"
+          ],
+          "icon": "restart_alt",
+          "action": "click-action"
+        },
+        {
+          "label": "add",
+          "classes": [
+            "w-20",
+            "h-20",
+            "md:w-24",
+            "md:h-24",
+            "rounded-full",
+            "bg-gradient-to-br",
+            "from-primary",
+            "to-primary-container",
+            "text-on-primary",
+            "flex",
+            "items-center",
+            "justify-center",
+            "hover:brightness-110",
+            "active:scale-95",
+            "transition-all",
+            "duration-200",
+            "shadow-[0_12px_40px_rgba(252,83,109,0.3)]",
+            "group",
+            "relative",
+            "overflow-hidden"
+          ],
+          "icon": "add",
+          "action": "create"
+        },
+        {
+          "label": "+10",
+          "classes": [
+            "px-4",
+            "py-2",
+            "rounded-lg",
+            "bg-surface-container-low",
+            "text-on-surface-variant",
+            "text-sm",
+            "font-label",
+            "font-medium",
+            "hover:bg-surface-container",
+            "hover:text-on-surface",
+            "transition-colors"
+          ],
+          "icon": null,
+          "action": "click-action"
+        },
+        {
+          "label": "+50",
+          "classes": [
+            "px-4",
+            "py-2",
+            "rounded-lg",
+            "bg-surface-container-low",
+            "text-on-surface-variant",
+            "text-sm",
+            "font-label",
+            "font-medium",
+            "hover:bg-surface-container",
+            "hover:text-on-surface",
+            "transition-colors"
+          ],
+          "icon": null,
+          "action": "click-action"
+        },
+        {
+          "label": "+100",
+          "classes": [
+            "px-4",
+            "py-2",
+            "rounded-lg",
+            "bg-surface-container-low",
+            "text-on-surface-variant",
+            "text-sm",
+            "font-label",
+            "font-medium",
+            "hover:bg-surface-container",
+            "hover:text-on-surface",
+            "transition-colors"
+          ],
+          "icon": null,
+          "action": "click-action"
+        },
+        {
+          "label": "menu",
+          "classes": [],
+          "icon": "menu",
+          "action": "click-action"
+        },
+        {
+          "label": "light_mode",
+          "classes": [],
+          "icon": "light_mode",
+          "action": "click-action"
+        },
+        {
+          "label": "settings",
+          "classes": [],
+          "icon": "settings",
+          "action": "click-action",
+          "expectedRoute": "#"
+        },
+        {
+          "label": "refresh",
+          "classes": [],
+          "icon": "refresh",
+          "action": "click-action"
+        },
+        {
+          "label": "remove",
+          "classes": [],
+          "icon": "remove",
+          "action": "click-action"
+        },
+        {
+          "label": "add",
+          "classes": [],
+          "icon": "add",
+          "action": "click-action"
+        },
+        {
+          "label": "palette",
+          "classes": [],
+          "icon": "palette",
+          "action": "click-action",
+          "expectedRoute": "#"
+        }
+      ],
+      "inputs": [],
+      "navLinks": [
+        {
+          "label": "add_circle\nSayaç",
+          "href": "#",
+          "classes": [
+            "bg-rose-500/10",
+            "text-rose-600",
+            "dark:text-rose-400",
+            "font-bold",
+            "rounded-xl",
+            "px-4",
+            "py-3",
+            "hover:bg-slate-200/50",
+            "dark:hover:bg-slate-800/50",
+            "transition-all",
+            "duration-300",
+            "ease-out",
+            "flex",
+            "items-center",
+            "gap-3"
+          ],
+          "icon": "add_circle"
+        },
+        {
+          "label": "history\nGeçmiş",
+          "href": "#",
+          "classes": [
+            "text-slate-600",
+            "dark:text-slate-400",
+            "px-4",
+            "py-3",
+            "hover:bg-slate-200/50",
+            "dark:hover:bg-slate-800/50",
+            "transition-all",
+            "duration-300",
+            "ease-out",
+            "flex",
+            "items-center",
+            "gap-3",
+            "rounded-xl"
+          ],
+          "icon": "history"
+        },
+        {
+          "label": "settings\nAyarlar",
+          "href": "#",
+          "classes": [
+            "text-slate-600",
+            "dark:text-slate-400",
+            "px-4",
+            "py-3",
+            "hover:bg-slate-200/50",
+            "dark:hover:bg-slate-800/50",
+            "transition-all",
+            "duration-300",
+            "ease-out",
+            "flex",
+            "items-center",
+            "gap-3",
+            "rounded-xl"
+          ],
+          "icon": "settings"
+        },
+        {
+          "label": "timer\nSayaç",
+          "href": "#",
+          "classes": [
+            "flex",
+            "flex-col",
+            "items-center",
+            "justify-center",
+            "bg-rose-600",
+            "text-white",
+            "rounded-full",
+            "p-3",
+            "mb-4",
+            "shadow-lg",
+            "shadow-rose-500/40"
+          ],
+          "icon": "timer"
+        },
+        {
+          "label": "history\nGeçmiş",
+          "href": "#",
+          "classes": [
+            "flex",
+            "flex-col",
+            "items-center",
+            "justify-center",
+            "text-slate-400",
+            "dark:text-slate-500",
+            "p-2",
+            "hover:text-rose-500",
+            "transition-colors",
+            "active:scale-90",
+            "transition-all",
+            "duration-200"
+          ],
+          "icon": "history"
+        },
+        {
+          "label": "palette\nTema",
+          "href": "#",
+          "classes": [
+            "flex",
+            "flex-col",
+            "items-center",
+            "justify-center",
+            "text-slate-400",
+            "dark:text-slate-500",
+            "p-2",
+            "hover:text-rose-500",
+            "transition-colors",
+            "active:scale-90",
+            "transition-all",
+            "duration-200"
+          ],
+          "icon": "palette"
+        }
+      ],
+      "cards": [],
+      "icons": [
+        "menu",
+        "light_mode",
+        "history",
+        "add_circle",
+        "settings",
+        "refresh",
+        "remove",
+        "restart_alt",
+        "add",
+        "timer",
+        "palette"
+      ],
+      "images": [],
+      "cssVars": {},
+      "colorPalette": {
+        "surface-container": "#1e1e32",
+        "primary-container": "#fc536d",
+        "tertiary-container": "#25a46d",
+        "error-container": "#93000a",
+        "secondary-fixed": "#84f8c4",
+        "on-error": "#690005",
+        "on-primary-fixed": "#40000e",
+        "on-primary": "#67001c",
+        "inverse-primary": "#b71d3f",
+        "surface-bright": "#37374d",
+        "surface-container-lowest": "#0c0c1f",
+        "primary-fixed-dim": "#ffb2b7",
+        "background": "#111125",
+        "on-error-container": "#ffdad6",
+        "on-tertiary": "#003921",
+        "on-secondary-container": "#003120",
+        "inverse-on-surface": "#2f2e43",
+        "surface-container-high": "#28283d",
+        "error": "#ffb4ab",
+        "tertiary": "#67dc9f",
+        "on-primary-fixed-variant": "#91002b",
+        "on-tertiary-fixed-variant": "#005232",
+        "on-surface": "#e2e0fc",
+        "surface-tint": "#ffb2b7",
+        "outline-variant": "#5a4042",
+        "on-secondary-fixed-variant": "#005138",
+        "tertiary-fixed": "#84f9ba",
+        "on-background": "#e2e0fc",
+        "outline": "#a9898a",
+        "secondary-container": "#22a476",
+        "on-secondary": "#003825",
+        "surface-container-highest": "#333348",
+        "primary-fixed": "#ffdadb",
+        "on-secondary-fixed": "#002114",
+        "secondary": "#66dca9",
+        "secondary-fixed-dim": "#66dca9",
+        "surface": "#111125",
+        "on-surface-variant": "#e2bebf",
+        "inverse-surface": "#e2e0fc",
+        "on-tertiary-container": "#00311c",
+        "on-tertiary-fixed": "#002111",
+        "primary": "#ffb2b7",
+        "surface-variant": "#333348",
+        "surface-dim": "#111125",
+        "on-primary-container": "#5b0017",
+        "surface-container-low": "#1a1a2e",
+        "tertiary-fixed-dim": "#67dc9f"
+      },
+      "fonts": [
+        "Space Grotesk",
+        "Inter",
+        "Material Symbols Outlined"
+      ],
+      "layoutHints": {
+        "flexDirection": "col",
+        "gap": "4"
+      },
+      "tabBar": [
+        {
+          "label": "Geçmiş Paneli",
+          "icon": null,
+          "active": false
+        },
+        {
+          "label": "Sayaç",
+          "icon": "add_circle",
+          "active": false
+        },
+        {
+          "label": "Geçmiş",
+          "icon": "history",
+          "active": false
+        },
+        {
+          "label": "Ayarlar",
+          "icon": "settings",
+          "active": false
+        },
+        {
+          "label": "Sıfırla",
+          "icon": "refresh",
+          "active": false
+        },
+        {
+          "label": "Sayaç",
+          "icon": "timer",
+          "active": false
+        },
+        {
+          "label": "Geçmiş",
+          "icon": "history",
+          "active": true
+        },
+        {
+          "label": "Tema",
+          "icon": "palette",
+          "active": true
+        }
+      ],
+      "title": "Ana Sayaç (Koyu)"
+    },
+    "c9a10e7019d147a2a483b353e86ec938": {
+      "screenId": "c9a10e7019d147a2a483b353e86ec938",
+      "materialSymbolsRequired": true,
+      "sections": [
+        {
+          "tag": "header",
+          "layout": "flex-row",
+          "classes": [
+            "docked",
+            "full-width",
+            "top-0",
+            "sticky",
+            "flex",
+            "justify-between",
+            "items-center",
+            "w-full",
+            "px-6",
+            "py-4"
+          ],
+          "childCount": 2
+        },
+        {
+          "tag": "main",
+          "layout": "flex-col",
+          "classes": [
+            "flex-grow",
+            "flex",
+            "flex-col",
+            "justify-between",
+            "items-center",
+            "px-6",
+            "pt-12",
+            "pb-32",
+            "w-full",
+            "max-w-md"
+          ],
+          "childCount": 5
+        },
+        {
+          "tag": "nav",
+          "layout": "flex-row",
+          "classes": [
+            "fixed",
+            "bottom-0",
+            "left-0",
+            "w-full",
+            "z-50",
+            "flex",
+            "justify-around",
+            "items-center",
+            "px-8",
+            "pb-6"
+          ],
+          "childCount": 0
+        }
+      ],
+      "buttons": [
+        {
+          "label": "light_mode",
+          "classes": [
+            "text-rose-600",
+            "dark:text-rose-400",
+            "hover:bg-slate-100",
+            "dark:hover:bg-slate-800",
+            "transition-colors",
+            "duration-200",
+            "active:scale-95",
+            "transition-transform",
+            "p-2",
+            "rounded-full",
+            "flex",
+            "items-center",
+            "justify-center"
+          ],
+          "icon": "light_mode",
+          "action": "click-action"
+        },
+        {
+          "label": "history",
+          "classes": [
+            "text-rose-600",
+            "dark:text-rose-400",
+            "hover:bg-slate-100",
+            "dark:hover:bg-slate-800",
+            "transition-colors",
+            "duration-200",
+            "active:scale-95",
+            "transition-transform",
+            "p-2",
+            "rounded-full",
+            "flex",
+            "items-center",
+            "justify-center"
+          ],
+          "icon": "history",
+          "action": "click-action",
+          "expectedRoute": "/history",
+          "routeInferred": true
+        },
+        {
+          "label": "add\n                Arttır",
+          "classes": [
+            "w-full",
+            "bg-primary",
+            "text-on-primary",
+            "font-headline",
+            "text-2xl",
+            "sm:text-3xl",
+            "font-bold",
+            "rounded-[24px]",
+            "py-6",
+            "flex",
+            "items-center",
+            "justify-center",
+            "gap-3",
+            "shadow-[0_8px_32px_rgba(255,178,183,0.2)]",
+            "active:scale-95",
+            "transition-transform",
+            "relative",
+            "overflow-hidden",
+            "group"
+          ],
+          "icon": "add",
+          "action": "create"
+        },
+        {
+          "label": "remove\n                Azalt",
+          "classes": [
+            "w-full",
+            "bg-surface-container-highest",
+            "text-on-surface",
+            "font-headline",
+            "text-xl",
+            "sm:text-2xl",
+            "font-semibold",
+            "rounded-[24px]",
+            "py-5",
+            "flex",
+            "items-center",
+            "justify-center",
+            "gap-3",
+            "active:scale-95",
+            "transition-transform",
+            "relative",
+            "overflow-hidden",
+            "group",
+            "shadow-[0_4px_20px_rgba(0,0,0,0.2)]"
+          ],
+          "icon": "remove",
+          "action": "click-action"
+        },
+        {
+          "label": "timer\n            Sayaç",
+          "classes": [
+            "flex",
+            "flex-col",
+            "items-center",
+            "justify-center",
+            "bg-rose-600",
+            "text-white",
+            "rounded-full",
+            "p-3",
+            "mb-4",
+            "shadow-lg",
+            "shadow-rose-500/40",
+            "font-['Inter']",
+            "text-[10px]",
+            "font-semibold",
+            "uppercase",
+            "tracking-widest",
+            "active:scale-90",
+            "transition-all",
+            "duration-200",
+            "w-16",
+            "h-16"
+          ],
+          "icon": "timer",
+          "action": "click-action"
+        },
+        {
+          "label": "history\n            Geçmiş",
+          "classes": [
+            "flex",
+            "flex-col",
+            "items-center",
+            "justify-center",
+            "text-slate-400",
+            "dark:text-slate-500",
+            "p-2",
+            "font-['Inter']",
+            "text-[10px]",
+            "font-semibold",
+            "uppercase",
+            "tracking-widest",
+            "hover:text-rose-500",
+            "transition-colors",
+            "active:scale-90",
+            "transition-all",
+            "duration-200",
+            "w-16",
+            "h-16"
+          ],
+          "icon": "history",
+          "action": "click-action",
+          "expectedRoute": "/history",
+          "routeInferred": true
+        },
+        {
+          "label": "palette\n            Tema",
+          "classes": [
+            "flex",
+            "flex-col",
+            "items-center",
+            "justify-center",
+            "text-slate-400",
+            "dark:text-slate-500",
+            "p-2",
+            "font-['Inter']",
+            "text-[10px]",
+            "font-semibold",
+            "uppercase",
+            "tracking-widest",
+            "hover:text-rose-500",
+            "transition-colors",
+            "active:scale-90",
+            "transition-all",
+            "duration-200",
+            "w-16",
+            "h-16"
+          ],
+          "icon": "palette",
+          "action": "click-action"
+        },
+        {
+          "label": "light_mode",
+          "classes": [],
+          "icon": "light_mode",
+          "action": "click-action"
+        },
+        {
+          "label": "add",
+          "classes": [],
+          "icon": "add",
+          "action": "click-action"
+        },
+        {
+          "label": "remove",
+          "classes": [],
+          "icon": "remove",
+          "action": "click-action"
+        },
+        {
+          "label": "palette",
+          "classes": [],
+          "icon": "palette",
+          "action": "click-action"
+        }
+      ],
+      "inputs": [],
+      "navLinks": [],
+      "cards": [],
+      "icons": [
+        "light_mode",
+        "history",
+        "add",
+        "remove",
+        "timer",
+        "palette"
+      ],
+      "images": [],
+      "cssVars": {},
+      "colorPalette": {
+        "surface-container": "#1e1e32",
+        "primary-container": "#fc536d",
+        "tertiary-container": "#25a46d",
+        "error-container": "#93000a",
+        "secondary-fixed": "#84f8c4",
+        "on-error": "#690005",
+        "on-primary-fixed": "#40000e",
+        "on-primary": "#67001c",
+        "inverse-primary": "#b71d3f",
+        "surface-bright": "#37374d",
+        "surface-container-lowest": "#0c0c1f",
+        "primary-fixed-dim": "#ffb2b7",
+        "background": "#111125",
+        "on-error-container": "#ffdad6",
+        "on-tertiary": "#003921",
+        "on-secondary-container": "#003120",
+        "inverse-on-surface": "#2f2e43",
+        "surface-container-high": "#28283d",
+        "error": "#ffb4ab",
+        "tertiary": "#67dc9f",
+        "on-primary-fixed-variant": "#91002b",
+        "on-tertiary-fixed-variant": "#005232",
+        "on-surface": "#e2e0fc",
+        "surface-tint": "#ffb2b7",
+        "outline-variant": "#5a4042",
+        "on-secondary-fixed-variant": "#005138",
+        "tertiary-fixed": "#84f9ba",
+        "on-background": "#e2e0fc",
+        "outline": "#a9898a",
+        "secondary-container": "#22a476",
+        "on-secondary": "#003825",
+        "surface-container-highest": "#333348",
+        "primary-fixed": "#ffdadb",
+        "on-secondary-fixed": "#002114",
+        "secondary": "#66dca9",
+        "secondary-fixed-dim": "#66dca9",
+        "surface": "#111125",
+        "on-surface-variant": "#e2bebf",
+        "inverse-surface": "#e2e0fc",
+        "on-tertiary-container": "#00311c",
+        "on-tertiary-fixed": "#002111",
+        "primary": "#ffb2b7",
+        "surface-variant": "#333348",
+        "surface-dim": "#111125",
+        "on-primary-container": "#5b0017",
+        "surface-container-low": "#1a1a2e",
+        "tertiary-fixed-dim": "#67dc9f"
+      },
+      "fonts": [
+        "Inter",
+        "Space Grotesk",
+        "Material Symbols Outlined"
+      ],
+      "layoutHints": {
+        "flexDirection": "col",
+        "gap": "3"
+      },
+      "tabBar": [
+        {
+          "label": "Sayaç",
+          "icon": "timer",
+          "active": true
+        },
+        {
+          "label": "Geçmiş",
+          "icon": "history",
+          "active": true
+        },
+        {
+          "label": "Tema",
+          "icon": "palette",
+          "active": true
+        }
+      ],
+      "title": "Mobil Görünüm"
+    },
+    "e0aab56c79d0406d82878eb631fde52a": {
+      "screenId": "e0aab56c79d0406d82878eb631fde52a",
+      "materialSymbolsRequired": true,
+      "sections": [
+        {
+          "tag": "header",
+          "layout": "flex-row",
+          "classes": [
+            "md:hidden",
+            "flex",
+            "justify-between",
+            "items-center",
+            "w-full",
+            "px-6",
+            "py-4",
+            "bg-white/80",
+            "dark:bg-slate-950/80",
+            "backdrop-blur-xl"
+          ],
+          "childCount": 2
+        },
+        {
+          "tag": "nav",
+          "layout": "flex-col",
+          "classes": [
+            "hidden",
+            "md:flex",
+            "fixed",
+            "inset-y-0",
+            "left-0",
+            "z-40",
+            "flex-col",
+            "p-4",
+            "bg-slate-50",
+            "dark:bg-slate-900"
+          ],
+          "childCount": 3
+        },
+        {
+          "tag": "main",
+          "layout": "flex-row",
+          "classes": [
+            "flex-1",
+            "md:ml-72",
+            "pt-24",
+            "md:pt-0",
+            "p-6",
+            "md:p-12",
+            "lg:p-24",
+            "min-h-screen",
+            "bg-background",
+            "relative"
+          ],
+          "childCount": 25
+        },
+        {
+          "tag": "nav",
+          "layout": "flex-row",
+          "classes": [
+            "md:hidden",
+            "fixed",
+            "bottom-0",
+            "left-0",
+            "w-full",
+            "z-50",
+            "flex",
+            "justify-around",
+            "items-center",
+            "px-8"
+          ],
+          "childCount": 0
+        }
+      ],
+      "buttons": [
+        {
+          "label": "light_mode",
+          "classes": [
+            "text-rose-600",
+            "dark:text-rose-400",
+            "active:scale-95",
+            "transition-transform",
+            "p-2",
+            "rounded-full",
+            "hover:bg-slate-100",
+            "dark:hover:bg-slate-800",
+            "transition-colors",
+            "duration-200"
+          ],
+          "icon": "light_mode",
+          "action": "click-action"
+        },
+        {
+          "label": "history",
+          "classes": [
+            "text-rose-600",
+            "dark:text-rose-400",
+            "active:scale-95",
+            "transition-transform",
+            "p-2",
+            "rounded-full",
+            "hover:bg-slate-100",
+            "dark:hover:bg-slate-800",
+            "transition-colors",
+            "duration-200"
+          ],
+          "icon": "history",
+          "action": "click-action",
+          "expectedRoute": "#"
+        },
+        {
+          "label": "delete\n                Sıfırla",
+          "classes": [
+            "w-full",
+            "flex",
+            "items-center",
+            "justify-center",
+            "gap-2",
+            "py-3",
+            "px-4",
+            "rounded-xl",
+            "bg-surface-container-high",
+            "hover:bg-surface-container-highest",
+            "text-error",
+            "font-medium",
+            "transition-colors",
+            "text-sm",
+            "group"
+          ],
+          "icon": "delete",
+          "action": "destructive"
+        },
+        {
+          "label": "42\n\nschedule\n                                19.04.2026 03:41\n                            \n\n\n\nGeri Y",
+          "classes": [
+            "w-full",
+            "text-left",
+            "bg-surface-container",
+            "hover:bg-surface-container-high",
+            "transition-colors",
+            "p-5",
+            "rounded-[1.25rem]",
+            "flex",
+            "items-center",
+            "justify-between",
+            "group",
+            "relative",
+            "overflow-hidden"
+          ],
+          "icon": "schedule",
+          "action": "click-action"
+        },
+        {
+          "label": "41\n\nschedule\n                                19.04.2026 03:38\n                            \n\n\nGeri Yü",
+          "classes": [
+            "w-full",
+            "text-left",
+            "bg-surface-container",
+            "hover:bg-surface-container-high",
+            "transition-colors",
+            "p-5",
+            "rounded-[1.25rem]",
+            "flex",
+            "items-center",
+            "justify-between",
+            "group",
+            "relative",
+            "overflow-hidden"
+          ],
+          "icon": "schedule",
+          "action": "click-action"
+        },
+        {
+          "label": "40\n\nschedule\n                                19.04.2026 03:15\n                            \n\n\nGeri Yü",
+          "classes": [
+            "w-full",
+            "text-left",
+            "bg-surface-container",
+            "hover:bg-surface-container-high",
+            "transition-colors",
+            "p-5",
+            "rounded-[1.25rem]",
+            "flex",
+            "items-center",
+            "justify-between",
+            "group",
+            "relative",
+            "overflow-hidden"
+          ],
+          "icon": "schedule",
+          "action": "click-action"
+        },
+        {
+          "label": "35\n\nschedule\n                                18.04.2026 21:04\n                            \n\n\nGeri Yü",
+          "classes": [
+            "w-full",
+            "text-left",
+            "bg-surface-container",
+            "hover:bg-surface-container-high",
+            "transition-colors",
+            "p-5",
+            "rounded-[1.25rem]",
+            "flex",
+            "items-center",
+            "justify-between",
+            "group",
+            "relative",
+            "overflow-hidden"
+          ],
+          "icon": "schedule",
+          "action": "click-action"
+        },
+        {
+          "label": "0\n\nschedule\n                                18.04.2026 10:00\n                            \n\n\nGeri Yük",
+          "classes": [
+            "w-full",
+            "text-left",
+            "bg-surface-container",
+            "hover:bg-surface-container-high",
+            "transition-colors",
+            "p-5",
+            "rounded-[1.25rem]",
+            "flex",
+            "items-center",
+            "justify-between",
+            "group",
+            "relative",
+            "overflow-hidden"
+          ],
+          "icon": "schedule",
+          "action": "click-action"
+        },
+        {
+          "label": "delete_sweep\nGeçmişi Temizle",
+          "classes": [
+            "w-full",
+            "bg-surface-container-highest",
+            "hover:bg-surface-bright",
+            "text-on-surface",
+            "py-4",
+            "px-6",
+            "rounded-xl",
+            "font-body",
+            "font-medium",
+            "flex",
+            "items-center",
+            "justify-center",
+            "gap-3",
+            "transition-all",
+            "relative",
+            "overflow-hidden",
+            "group"
+          ],
+          "icon": "delete_sweep",
+          "action": "destructive"
+        },
+        {
+          "label": "light_mode",
+          "classes": [],
+          "icon": "light_mode",
+          "action": "click-action"
+        },
+        {
+          "label": "settings",
+          "classes": [],
+          "icon": "settings",
+          "action": "click-action",
+          "expectedRoute": "#"
+        },
+        {
+          "label": "delete",
+          "classes": [],
+          "icon": "delete",
+          "action": "click-action"
+        },
+        {
+          "label": "palette",
+          "classes": [],
+          "icon": "palette",
+          "action": "click-action",
+          "expectedRoute": "#"
+        }
+      ],
+      "inputs": [],
+      "navLinks": [
+        {
+          "label": "add_circle\nSayaç",
+          "href": "#",
+          "classes": [
+            "flex",
+            "items-center",
+            "gap-4",
+            "text-slate-600",
+            "dark:text-slate-400",
+            "px-4",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-slate-200/50",
+            "dark:hover:bg-slate-800/50",
+            "transition-all",
+            "duration-300",
+            "ease-out",
+            "font-['Inter']",
+            "text-sm",
+            "font-medium"
+          ],
+          "icon": "add_circle"
+        },
+        {
+          "label": "history\nGeçmiş",
+          "href": "#",
+          "classes": [
+            "flex",
+            "items-center",
+            "gap-4",
+            "bg-rose-500/10",
+            "text-rose-600",
+            "dark:text-rose-400",
+            "font-bold",
+            "rounded-xl",
+            "px-4",
+            "py-3",
+            "transition-all",
+            "duration-300",
+            "ease-out",
+            "font-['Inter']",
+            "text-sm",
+            "font-medium"
+          ],
+          "icon": "history"
+        },
+        {
+          "label": "settings\nAyarlar",
+          "href": "#",
+          "classes": [
+            "flex",
+            "items-center",
+            "gap-4",
+            "text-slate-600",
+            "dark:text-slate-400",
+            "px-4",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-slate-200/50",
+            "dark:hover:bg-slate-800/50",
+            "transition-all",
+            "duration-300",
+            "ease-out",
+            "font-['Inter']",
+            "text-sm",
+            "font-medium"
+          ],
+          "icon": "settings"
+        },
+        {
+          "label": "timer\nSayaç",
+          "href": "#",
+          "classes": [
+            "flex",
+            "flex-col",
+            "items-center",
+            "justify-center",
+            "text-slate-400",
+            "dark:text-slate-500",
+            "p-2",
+            "hover:text-rose-500",
+            "transition-colors",
+            "active:scale-90",
+            "transition-all",
+            "duration-200"
+          ],
+          "icon": "timer"
+        },
+        {
+          "label": "history\n\nGeçmiş",
+          "href": "#",
+          "classes": [
+            "flex",
+            "flex-col",
+            "items-center",
+            "justify-center",
+            "bg-rose-600",
+            "text-white",
+            "rounded-full",
+            "p-3",
+            "mb-4",
+            "shadow-lg",
+            "shadow-rose-500/40",
+            "active:scale-90",
+            "transition-all",
+            "duration-200"
+          ],
+          "icon": "history"
+        },
+        {
+          "label": "palette\nTema",
+          "href": "#",
+          "classes": [
+            "flex",
+            "flex-col",
+            "items-center",
+            "justify-center",
+            "text-slate-400",
+            "dark:text-slate-500",
+            "p-2",
+            "hover:text-rose-500",
+            "transition-colors",
+            "active:scale-90",
+            "transition-all",
+            "duration-200"
+          ],
+          "icon": "palette"
+        }
+      ],
+      "cards": [],
+      "icons": [
+        "light_mode",
+        "history",
+        "add_circle",
+        "settings",
+        "delete",
+        "schedule",
+        "replay",
+        "delete_sweep",
+        "timer",
+        "palette"
+      ],
+      "images": [],
+      "cssVars": {},
+      "colorPalette": {
+        "surface-container": "#1e1e32",
+        "primary-container": "#fc536d",
+        "tertiary-container": "#25a46d",
+        "error-container": "#93000a",
+        "secondary-fixed": "#84f8c4",
+        "on-error": "#690005",
+        "on-primary-fixed": "#40000e",
+        "on-primary": "#67001c",
+        "inverse-primary": "#b71d3f",
+        "surface-bright": "#37374d",
+        "surface-container-lowest": "#0c0c1f",
+        "primary-fixed-dim": "#ffb2b7",
+        "background": "#111125",
+        "on-error-container": "#ffdad6",
+        "on-tertiary": "#003921",
+        "on-secondary-container": "#003120",
+        "inverse-on-surface": "#2f2e43",
+        "surface-container-high": "#28283d",
+        "error": "#ffb4ab",
+        "tertiary": "#67dc9f",
+        "on-primary-fixed-variant": "#91002b",
+        "on-tertiary-fixed-variant": "#005232",
+        "on-surface": "#e2e0fc",
+        "surface-tint": "#ffb2b7",
+        "outline-variant": "#5a4042",
+        "on-secondary-fixed-variant": "#005138",
+        "tertiary-fixed": "#84f9ba",
+        "on-background": "#e2e0fc",
+        "outline": "#a9898a",
+        "secondary-container": "#22a476",
+        "on-secondary": "#003825",
+        "surface-container-highest": "#333348",
+        "primary-fixed": "#ffdadb",
+        "on-secondary-fixed": "#002114",
+        "secondary": "#66dca9",
+        "secondary-fixed-dim": "#66dca9",
+        "surface": "#111125",
+        "on-surface-variant": "#e2bebf",
+        "inverse-surface": "#e2e0fc",
+        "on-tertiary-container": "#00311c",
+        "on-tertiary-fixed": "#002111",
+        "primary": "#ffb2b7",
+        "surface-variant": "#333348",
+        "surface-dim": "#111125",
+        "on-primary-container": "#5b0017",
+        "surface-container-low": "#1a1a2e",
+        "tertiary-fixed-dim": "#67dc9f"
+      },
+      "fonts": [
+        "Inter",
+        "Space Grotesk",
+        "Material Symbols Outlined"
+      ],
+      "layoutHints": {
+        "flexDirection": "col",
+        "gap": "4"
+      },
+      "tabBar": [
+        {
+          "label": "Geçmiş Paneli",
+          "icon": null,
+          "active": false
+        },
+        {
+          "label": "Sayaç",
+          "icon": "add_circle",
+          "active": true
+        },
+        {
+          "label": "Geçmiş",
+          "icon": "history",
+          "active": false
+        },
+        {
+          "label": "Ayarlar",
+          "icon": "settings",
+          "active": false
+        },
+        {
+          "label": "Sıfırla",
+          "icon": "delete",
+          "active": false
+        },
+        {
+          "label": "Sayaç",
+          "icon": "timer",
+          "active": true
+        },
+        {
+          "label": "Geçmiş",
+          "icon": "history",
+          "active": true
+        },
+        {
+          "label": "Tema",
+          "icon": "palette",
+          "active": true
+        }
+      ],
+      "title": "Geçmiş Paneli"
+    }
+  }
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="tr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Sıfırlama Onay Modali</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container": "#1e1e32",
+                        "primary-container": "#fc536d",
+                        "tertiary-container": "#25a46d",
+                        "error-container": "#93000a",
+                        "secondary-fixed": "#84f8c4",
+                        "on-error": "#690005",
+                        "on-primary-fixed": "#40000e",
+                        "on-primary": "#67001c",
+                        "inverse-primary": "#b71d3f",
+                        "surface-bright": "#37374d",
+                        "surface-container-lowest": "#0c0c1f",
+                        "primary-fixed-dim": "#ffb2b7",
+                        "background": "#111125",
+                        "on-error-container": "#ffdad6",
+                        "on-tertiary": "#003921",
+                        "on-secondary-container": "#003120",
+                        "inverse-on-surface": "#2f2e43",
+                        "surface-container-high": "#28283d",
+                        "error": "#ffb4ab",
+                        "tertiary": "#67dc9f",
+                        "on-primary-fixed-variant": "#91002b",
+                        "on-tertiary-fixed-variant": "#005232",
+                        "on-surface": "#e2e0fc",
+                        "surface-tint": "#ffb2b7",
+                        "outline-variant": "#5a4042",
+                        "on-secondary-fixed-variant": "#005138",
+                        "tertiary-fixed": "#84f9ba",
+                        "on-background": "#e2e0fc",
+                        "outline": "#a9898a",
+                        "secondary-container": "#22a476",
+                        "on-secondary": "#003825",
+                        "surface-container-highest": "#333348",
+                        "primary-fixed": "#ffdadb",
+                        "on-secondary-fixed": "#002114",
+                        "secondary": "#66dca9",
+                        "secondary-fixed-dim": "#66dca9",
+                        "surface": "#111125",
+                        "on-surface-variant": "#e2bebf",
+                        "inverse-surface": "#e2e0fc",
+                        "on-tertiary-container": "#00311c",
+                        "on-tertiary-fixed": "#002111",
+                        "primary": "#ffb2b7",
+                        "surface-variant": "#333348",
+                        "surface-dim": "#111125",
+                        "on-primary-container": "#5b0017",
+                        "surface-container-low": "#1a1a2e",
+                        "tertiary-fixed-dim": "#67dc9f"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {},
+                    "fontFamily": {
+                        "headline": [
+                            "Space Grotesk"
+                        ],
+                        "body": [
+                            "Inter"
+                        ],
+                        "label": [
+                            "Inter"
+                        ]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body min-h-screen overflow-hidden antialiased selection:bg-primary/30">
+<main class="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 lg:p-8">
+<div class="absolute inset-0 bg-background/85 backdrop-blur-xl"></div>
+<section aria-modal="true" class="relative w-full max-w-lg flex flex-col bg-surface-container-highest rounded-2xl sm:rounded-[2rem] shadow-[0_32px_64px_-16px_rgba(0,0,0,0.6)] overflow-hidden" role="dialog">
+<div class="p-8 sm:p-10 flex flex-col gap-6">
+<div class="flex items-center justify-center w-16 h-16 rounded-full bg-error-container/20 text-error mb-2 self-start">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">error</span>
+</div>
+<div class="flex flex-col gap-4">
+<h2 class="font-headline text-3xl sm:text-4xl font-bold tracking-tight text-on-surface">
+                        Sayac sifirlanacak. Onayliyor musunuz?
+                    </h2>
+<p class="font-body text-base text-on-surface-variant leading-relaxed">
+                        Bu işlem mevcut sayaç değerini kalıcı olarak sıfırlayacaktır. Geçmiş kayıtlarınız etkilenmeyebilir ancak aktif sayım baştan başlayacaktır.
+                    </p>
+</div>
+</div>
+<div class="bg-surface-container-high p-6 sm:px-10 sm:py-6 flex flex-col-reverse sm:flex-row items-center justify-end gap-3 sm:gap-4 mt-auto">
+<button class="w-full sm:w-auto px-8 py-4 font-label font-semibold text-sm tracking-wide text-on-surface bg-surface-container-lowest hover:bg-surface-variant transition-colors duration-200 rounded-xl flex items-center justify-center" type="button">
+                    Vazgec
+                </button>
+<button class="w-full sm:w-auto px-8 py-4 font-label font-bold text-sm tracking-wide text-on-error bg-error hover:bg-error/90 transition-colors duration-200 rounded-xl flex items-center justify-center gap-2 group" type="button">
+<span class="material-symbols-outlined text-[1.125rem] group-hover:-rotate-180 transition-transform duration-500 ease-in-out">restart_alt</span>
+                    Evet, Sifirla
+                </button>
+</div>
+</section>
+</main>
+</body></html>
