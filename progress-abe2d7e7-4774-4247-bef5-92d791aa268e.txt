@@ -1,0 +1,39 @@
+=== US-001: Proje kurulumu ve tasarim sistemi ===
+COMPLETED: 2026-04-19T00:56Z
+FILES CHANGED:
+  package.json
+  tsconfig.json
+  tsconfig.node.json
+  vite.config.ts
+  vitest.config.ts
+  tailwind.config.js
+  postcss.config.js
+  .eslintrc.cjs
+  index.html
+  src/main.tsx
+  src/App.tsx
+  src/index.css
+  src/vite-env.d.ts
+  src/types/index.ts
+  src/utils/storage.ts
+  src/utils/storage.test.ts
+  src/test/setup.ts
+KEY DECISIONS:
+  - Vite 5 + React 18 + TypeScript + Tailwind 3 + Vitest 1 + jsdom
+  - stitch/design-tokens.css is @imported from src/index.css and surfaced
+    to Tailwind via CSS variables (tailwind.config.js maps var(--color-*)).
+  - darkMode: 'class' on <html>; App toggles + persists theme to localStorage.
+  - Shared types (ThemeMode, HistoryEntry, CounterState, STORAGE_KEYS,
+    HISTORY_LIMIT=5) live in src/types/index.ts.
+  - Storage helpers in src/utils/storage.ts (readJSON/writeJSON/removeKey)
+    with try/catch fallbacks for disabled storage.
+  - src/test/setup.ts polyfills localStorage because jsdom@24 in this env
+    ships a stub without setItem/getItem.
+DEPENDENCIES ADDED:
+  runtime: react, react-dom
+  dev: vite, @vitejs/plugin-react, typescript, tailwindcss, postcss,
+       autoprefixer, vitest, jsdom, @testing-library/dom,
+       @testing-library/react, @testing-library/user-event,
+       @testing-library/jest-dom, @types/react, @types/react-dom,
+       @typescript-eslint/eslint-plugin, @typescript-eslint/parser, eslint,
+       eslint-plugin-react-hooks, eslint-plugin-react-refresh
